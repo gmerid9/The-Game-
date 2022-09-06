@@ -98,7 +98,7 @@ const wordGenerator = () => {
 // generate the letters
 // declare a function called generateButtons
 const generateButtons = () => {
-  let lettersHTML = 'abcdefghijklmnopqrstuvwxyz'
+  let alphabeht  = 'abcdefghijklmnopqrstuvwxyz'
     .split('')
     .map(
       (letter) =>
@@ -120,9 +120,13 @@ const generateButtons = () => {
     )
     .join('');
   // set the html of letter container to letterButtons
-  letterContainer.innerHTML = lettersHTML;
+  letterContainer.innerHTML = alphabeht;
+  
 };
+// creating letters
 
+        
+    
 // handle selecting letter
 // declare a function called handleGuess with one parameter
 const handleGuess = (choosenLetter) => {
